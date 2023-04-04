@@ -1,2 +1,2 @@
 # GS-2-AgroTech
- Projeto em grupo para simular a página de uma startup AgroTech
+ Projeto em grupo feito para simular uma pagina de uma startup AgroTech
