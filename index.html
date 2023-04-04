@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Global Solution 2</title>
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="icon" href="./images/logoStartUp.svg">
+</head>
+
+<body>
+
+	<header id="header">
+		<img id="logo" src="./images/logoStartUp.svg" alt="Logo da Start Up">
+ 
+  <h1 id="nomeStartup">Limos</h1>
+
+  <a class="linkMenu " href="#sobreNos">Sobre Nós</a>
+  <a class="linkMenu " href="#tec1">Nimbus</a>
+  <a class="linkMenu " href="#tec2">Sens-92</a>
+  <a class="linkMenu " href="#nossaEquipe_divisor">Equipe</a>
+  <a id="link_contato" href="#contato">Contato</a>
+  
+  </header>
+
+  <div class="menuMobile">
+    <input type="checkbox" id="chec">
+    <label id="menuMobile_label" for="chec">
+      <img src="./images/iconeMenu.png" alt="icone do menu" class="iconeMenu">
+    </label>
+      <nav>
+        <ul>
+          <li><a href="#sobreNos">Sobre Nós</a></li>
+          <li><a href="#tec1">Nimbus</a></li>
+          <li><a href="#tec2">Sens-92</a></li>
+          <li><a href="#nossaEquipe_divisor">Equipe</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+  </div>
+
+
+  <div class="slider">
+    <div class="slides">
+
+      <input type="radio" name="radio-btn" id="radio1">
+      <input type="radio" name="radio-btn" id="radio2">
+      <input type="radio" name="radio-btn" id="radio3">
+      <input type="radio" name="radio-btn" id="radio4">
+
+      <div class="slide first ">
+        <img class="carrossel" src="./images/carrossel4.jpg" alt="">
+      </div>
+      <div class="slide box">
+        <img class="carrossel" src="./images/carrossel2.png" alt="">
+      </div>
+      <div class="slide box">
+        <img class="carrossel " src="./images/carrossel3.png" alt="">
+      </div>
+      <div class="slide box">
+        <img class="carrossel" src="./images/carrossel1.jpg" alt="">
+      </div>
+      
+    <div class="navigation-manual">
+      <label for="radio1" class="manual-btn1" onclick="changeImg(1)"></label>
+      <label for="radio2" class="manual-btn2" onclick="changeImg(2)"></label>
+      <label for="radio3" class="manual-btn3" onclick="changeImg(3)"></label>
+      <label for="radio4" class="manual-btn4" onclick="changeImg(4)"></label>
+    </div>
+    </div>
+  </div>
+
+
+<script src="./javascript/javascript.js"></script>
+
+  <div id="avisoComeco">
+    <p id="avisoLinha1">Ajude a criar um futuro</p>
+    <h1 id="avisoLinha2">SEM FOME</h1>
+    <a id="avisoBotao" href="#tec1">Comece Hoje</a>
+  </div>
+
+
+  <section id="sobreNos">
+    <div id="sobreNos_BalaoBranco">
+      <h1 id="sobreNos_h1">Sobre Nós</h1>
+      <div id="sobreNos_Texto">
+        <p>Olá! Bem-vindo(a)! Nós somos a Limos, uma Start Up focada em AgroTech com um propósito de empregar novos métodos e tecnologias em fazendas, com o principal objetivo de proporcionar um aumento na produtividade agrícola, e de um controle maior sobre pestes, através de nossos produtos. </p>
+        <p>Também contamos com uma equipe de profissionais prontos para ajudá-lo(a) em qualquer eventual problema, ou na instalação de nossos produtos.</p>
+        <p>Não perca tempo e veja nossos produtos abaixo!</p>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="tec1">
+    <h1 id="tec1_nomeIntroducao">Nimbus</h1>
+    
+    <div id="tec1_caixaImgIntro">
+    <img id="tec1_imgIntroducao" src="./images/tec1_introducao.png" alt="Imagem Introdução da Tecnologia 1">
+    </div>
+    
+    <div id="tec1_caixaTextoBotao">
+      <p id="tec1_textoIntroducao">O Nimbus é uma solução inteligente que irá facilitar o trabalho no campo, eles são capazes de mapear o terreno, criar relatórios sobre a condição das plantações e detectar e pulverizar pestes presentes. Esse revolucionário drone dialoga diretamente com a premissa promovida pelo item 2.3 dos objetivos de desenvolvimento sustentável da ONU que torna como meta dobrar a produtividade agrícola e a renda dos pequenos agricultores, ao tornar o trabalho de pulverização sustentável e seguro. O Nimbus conta com uma câmera de alta resolução e sensores precisos, junto de uma bateria de 1 hora de autonomia no modelo mais simples, podendo chegar a 4 horas no modelo mais premium, além de ser composto apenas de peças robustas ainda possui resistência a água com proteção IP68. Não perca tempo, encomende um agora!</p>
+      <a id="tec1_botaoComprar" href="#contato">COMPRAR</a>
+    </div>
+
+
+    <div id="tec1_secaoImg1">
+      <img id="tec1_img1" src="./images/tec1_img1.png" alt="Homem controlando um drone">
+      <div id="tec1_secaoTexto1">
+        <img id="tec1_balaoTexto1" src="./images/balaoTexto1.svg" alt="Balao para o Texto 1 da seção 1">
+        <p id="tec1_texto1">O drone pode ter rotas previamente definidas ou podem ser controlados manualmente através de seu controle, ele vai memorizando a rota percorrida para que você possa defini-la como automática depois, fazendo devidos ajustes como altura de voo indicada e correções no percurso.</p>
+      </div>
+    </div>
+
+
+    <div id="tec1_secaoImg2">
+      <img id="tec1_img2" src="./images/tec1_img2.png" alt="Homem com um tablet, colhendo uma planta">
+      <div id="tec1_secaoTexto2">
+        <img id="tec1_balaoTexto2" src="./images/balaoTexto2.svg" alt="Balao para o Texto 2 da seção 1">
+        <p id="tec1_texto2">O relatório gerado da plantação apresenta as informações em um modo fácil de leitura junto de gráficos, fotos tiradas pelo drone e coordenadas. Você pode verificar as câmeras do drone em tempo real através de uma conexão 5g.</p>
+      </div>
+    </div>
+
+  </section>
+
+
+  
+  <section id="tec2">
+    <div id="tec2_caixaImgIntro">
+    <img id="tec2_imgIntroducao" src="./images/tec2_introducao.png" alt="Imagem Introdução da Tecnologia 2">
+    </div>
+    <h1 id="tec2_nomeIntroducao">Sens-92</h1>
+    <div id="tec2_caixaTextoBotao">
+      <p id="tec2_textoIntroducao">Está tecnologia focada em menores produtores e hortas se trata de sensores que conseguem verificar o nível de umidade e de nutrientes do solo, ele também recomenda quais são os melhores cultivos no momento e até adubos caseiros para o solo. É de fácil instalação apenas precisando ser fincado no solo, conta com resistência a água e é autossuficiente pois conta com uma placa fotovoltaica que carrega o dispositivo.</p>
+      <a id="tec2_botaoComprar" href="#contato">COMPRAR</a>
+    </div>
+
+    <div id="tec2_secaoImg1">
+      <img id="tec2_balao1Texto1" src="./images/tec2_fundoMilhoCenoura.svg" alt="Balão para a o texto 1 da seção 2">
+      <p id="tec2_texto1">É preciso baixar o aplicativo do sensor e conectar o seu dispositivo a ele, após isso você pode configurar o aplicativo para te mandar notificações quando algum nível de umidade ou nutriente estiver abaixo do indicado, para quem tem hortas caseiras ele informara uma combinação de adubo caseiro triturando cascas de legumes, verduras, folhas secas e restos de comida, com base nos nutrientes escassos.</p>
+      <img id="tec2_imagem1" src="./images/tec2_imagemSensor.png" alt="Plantação com o sensor sendo utilizado">
+    </div>
+
+    <div id="tec2_secaoImg2">
+      <img id="tec2_imgTablet" src="./images/fotoTablet.svg" alt="Tablet mostrando funcionamento do aplicativo integrado ao sensores.">
+
+      <img id="tec2_balaoTexto2" src="./images/broto.svg" alt="Balão para o Texto 2 da seção 2">
+      <p id="tec_texto2">O aplicativo usa seus dados de localização e data junto dos níveis de nutrientes do solo para determinar os melhores tipos de cultivo para a época e suas estimativas de tempo de colheita, além disso possui uma interface projetada para ser navegada facilmente, com vários ícones e textos de fácil entendimento. Esse dispositivo inovador dialoga diretamente com a premissa promovida pelo item 2.4 dos objetivos de desenvolvimento sustentável da ONU que torna como meta garantir sistemas sustentáveis de produção de alimentos e implementar práticas agrícolas resilientes, que aumentem a produtividade e a produção, através de todas suas funções.</p>
+
+    </div>
+    
+  </section>
+
+
+
+  <section id="nossaEquipe">
+    <img id="nossaEquipe_imgIntro" src="./images/imagemMao.png" alt="Mão segurando terra">
+    <img id="nossaEquipe_divisor" src="./images/blocoBranco.png" alt="Bloco Branco dividindo seções">
+    <h1 id="nossaEquipe_textoNossaEquipe">Nossa Equipe</h1>
+
+    <div id="nossaEquipe_secaoToda">
+
+      <img id="nossaEquipe_deco1" src="./images/arvore1.png" alt="Decoração de Galhos 1">
+
+      <h1 class="nomesEquipe" id="integrante_ale">Alexandre Ilha</h1>
+      <img class="images_int" id="nossaEquipe_img1" src="./images/Ale_qd1.png" alt="Foto do Integrante Alexandre">
+      <div id="nossaEquipe_campo1" class="nossaEquipe_campos">
+        <p id="int1_texto">Fundador e CEO da Limos, Alexandre Ilha trabalha como empreendedor em projetos próprios há mais de 10 anos, acumulando larga experiência em gestão de equipe e visão estratégica. 
+       </p>
+      </div>
+
+      <h1 class="nomesEquipe" id="integrante_ant">Antônio Victor</h1>
+      <img class="images_int" id="nossaEquipe_img2" src="./images/Ant_qd1.png" alt="Foto do Integrante Antônio">
+      <div id="nossaEquipe_campo2" class="nossaEquipe_campos">
+        <p id="int2_texto">Engenheiro Agrônomo, Antônio é aficionado pela área desde quando tinha 14 anos. Tendo trabalhado em outras empresas como IBM e AWS, atualmente integra o time de hardware da Limos desde 2021 desenvolvendo novas tecnologias.
+      </p>
+      </div>
+
+      <img id="nossaEquipe_deco2" src="./images/arvore2.png" alt="Decoração de Galhos 2">
+      
+
+      <img id="nossaEquipe_deco3" src="./images/arvore3.png" alt="Decoração de Galhos 3">
+
+      <h1 class="nomesEquipe" id="integrante_mat">Mateus Dilho</h1>
+      <img class="images_int" id="nossaEquipe_img3" src="./images/Mat_qd1.png" alt="Foto do Integrante Mateus">
+      <div id="nossaEquipe_campo3" class="nossaEquipe_campos">
+        <p id="int3_texto">Engenheiro Mecatrônico, Mateus adora a área da tecnologia e sempre está desenvolvendo novos projetos. Chegou a trabalhar na Apple e no momento atua na equipe de hardware da Limos.  
+       </p>
+      </div>
+      
+      <h1 class="nomesEquipe" id="integrante_ped">Pedro Henrique</h1>
+      <img class="images_int" id="nossaEquipe_img4" src="./images/Ped_qd1.png" alt="Foto do Integrante Pedro">
+      <div id="nossaEquipe_campo4" class="nossaEquipe_campos">
+        <p id="int4_texto">Desenvolvedor de software, Pedro é dedicado, trabalha bem em equipe e participou de diversas atividades solidárias. Trabalhou no exterior em empresas como Microsoft e Facebook, agora como parte da Limos desenvolve aplicações.  
+      </p>
+      </div>
+
+        <img id="nossaEquipe_deco4" src="./images/arvore4.png" alt="Decoração de Galhos 4">
+
+        <img id="nossaEquipe_deco5" src="./images/arvore5.png" alt="Decoração de Galhos 5">
+
+    </div>
+  </section>
+
+  <section id="contato">
+    <img id="contato_imgIntro" src="./images/imgContato_Introducao.png" alt="Fazendeiro usando notebook">
+    <div id="contato_caixaTextoIntro">
+      <h1 id="contato_textoInteressado">Ficou Interessado?</h1>
+      <h1 id="contato_textoEntreContato">Entre em contato com a gente!</h1>
+    </div>
+
+    <h1 id="contato_textoContato">Contato</h1>
+
+    <div id="contato_caixaFormulario">
+      <form action="" id="contato_form">
+
+      <h1 id="contato_form_textoComeco">Preencha o formulário a seguir:</h1>
+      <input type="text" name="Nome" id="nome" required class="contato_formSec" placeholder="Nome">
+      <input type="email" name="E-Mail" id="eMail" required class="contato_formSec" placeholder="E-Mail">
+      <input type="number" name="Telefone" id="telefone" required class="contato_formSec" placeholder="Número de Telefone">
+      <h2 id="contato_form_textoMetade">Sua Mensagem:</h2>
+      <textarea name="Texto" id="texto" required class="contato_formSec" placeholder="(Máximo de 2000 caracteres)" maxlength="2000"></textarea>
+      <input type="submit" value="Enviar" id="enviar" class="contato_formSec">
+      </form>
+    </div>
+
+  </section>
+  
+  <footer id="rodape">
+    <img class="rodape_itens" id="rodape_iconeMapa" src="./images/icon_mapa.png" alt="Icone Mapa">
+    <h2 class="rodape_itens" id="rodape_endereco">Av. John Doe, 89</h2>
+    <img class="rodape_itens" id="rodape_iconeTelefone" src="./images/icon_tel.png" alt="Icone Telefone">
+    <h2 class="rodape_itens" id="rodape_telefone">(11) 3999-7070</h2>
+    <img class="rodape_itens" id="rodape_iconeEmail" src="./images/icon_mail.png" alt="Icone Email">
+    <h2 class="rodape_itens" id="rodape_email">robopesig@gmail.com</h2>
+
+    <a href="https://twitter.com" id="rodape_twitter" target="_blank"></a>
+    <a href="https://www.youtube.com" id="rodape_youtube" target="_blank"></a>
+    <a href="https://www.instagram.com" id="rodape_insta" target="_blank"></a>
+
+  </footer>
+  
+
+
+
+</body>
+</html>
